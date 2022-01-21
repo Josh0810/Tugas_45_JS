@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Tugas45</title>
+    </head>
+    <body>
+        <p id="href2"></p>
+        <button onclick="href_location2()">Lihat Href Location Halaman Tugas45</button>
+        <button onclick="back()">Kembali Ke Halaman Index</button>
+
+        <script>
+            function href_location2() {
+                var x = location.href;
+                document.getElementById('href2').innerHTML = "<b>Href Location :<b> " + x;
+            }
+            function back() {window.history.back()}
+        </script>
+    </body>
+</html>

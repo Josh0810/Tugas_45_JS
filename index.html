@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+        <p id="href1"></p>
+        <button onclick="href_location()">Lihat Href Location Halaman Index</button>
+        <button><a href="tugas45.html">Menuju Ke Halaman Tugas45</a></button>
+
+        <script>
+            function href_location() {
+                var x = location.href;
+                document.getElementById('href1').innerHTML = "<b>Href Location :<b> " + x;
+            }
+        </script>
+    </body>
+</html>
